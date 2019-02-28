@@ -77,25 +77,23 @@ header{
                      </ul>
                 <div class="form-group">
     <label for="comment">feedback is more then welcome:</label>
-     <textarea class="form-control" rows="5" id="comment"></textarea>
+     <textarea class="form-control" rows="5" id="as"value="value"></textarea>
     </div>
                 <div class="form-group">
                   <button class="btn btn-primary" onclick="getText()">click here</button>
-                    <p id="z"></p>
+                   
                 </div>
                 <script>
                     function getText(){
                     var text;
                         let b=document.createElement("p");
-                        text=getElementById("comment").value;
+                        text=getElementById("as").value;
                         b.appendChild(text);
                        // document.getElementById("comments").innerText=text;
                         document.body.appendChild(b);
                         
                     }
                 </script>
-                
-            </div>
             <footer>
                 <h1>follow me on</h1>
                 <ul class="list-group"></ul>
