@@ -80,8 +80,15 @@ header{
      <textarea class="form-control" rows="5" id="comment"></textarea>
     </div>
                 <div class="form-group">
-                  <input type="submit" class="btn btn-primary" onclick="getText()">
+                  <input type="submit" class="btn btn-primary" onclick="getText();">
                 </div>
+                <script>
+                    function getText(){
+                    var text;
+                        text=getElementById("comment").value;
+                        alert(text);
+                    }
+                </script>
             </div>
             <footer>
                 <h1>follow me on</h1>
