@@ -85,10 +85,11 @@ header{
                 </div>
                 <script>
                     function getText(){
-                    var text;
+                    let text;
                         let b=document.createElement("p");
                         text=document.getElementById("as").value;
-                        b.appendChild(text);
+                         let t=document.createTextNode(text);
+                        b.appendChild(t);
                        // document.getElementById("comments").innerText=text;
                         document.body.appendChild(b);
                         
