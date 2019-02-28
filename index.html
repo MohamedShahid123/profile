@@ -86,8 +86,12 @@ header{
                 <script>
                     function getText(){
                     var text;
+                        let b=document.createElement("p");
                         text=getElementById("comment").value;
-                        document.getElementById("z").innerHTML="text";
+                        b.appendChild(text);
+                       // document.getElementById("comments").innerText=text;
+                        document.body.appendChild(b);
+                        
                     }
                 </script>
                 
